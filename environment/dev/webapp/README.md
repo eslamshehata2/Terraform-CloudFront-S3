@@ -1,1 +1,1 @@
-# minvotech
+# Static Web Site
