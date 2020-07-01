@@ -5,10 +5,10 @@ provider "aws" {
 
 module "cloudfront" {
   source = "../../modules/cloudfront"
-  bucket-name        = "saqlain-mushtaq-com"
-  tag_key_Name       =  "saqlain-mushtaq-com"
-  comment            = "DevOps Automation By Muhammad Asim"
-  domain_aliases     = "*.saqlainmushtaq.com"
+  bucket-name        = "dev-eslam-com"
+  tag_key_Name       =  "dev-eslam-com"
+  comment            = "DevOps Automation By islam shehata"
+  domain_aliases     = "*.eslam.com"
   logs_prefix        = "logs"
   Environment        = "dev"
   #  One of PriceClass_All, PriceClass_200, PriceClass_100
